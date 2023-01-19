@@ -98,14 +98,14 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| U_NP  | U_NP  | ESC   | BSPC    | TAB   | ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 **** Hold
 
 #+NAME: hold
 | BOOT     | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) |         |       | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| LGUI     | LALT      | LCTL        | LSFT       |         |       | LSFT       | LCTL        | LALT      | LGUI     |
+| LCTL     | LALT      | LGUI        | LSFT       |         |       | LSFT       | LGUI        | LALT      | LCTL     |
 | U_BUTTON | ALGR      | LOCK_OPP    | LOCK_CUR   |         |       | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
 | U_NP     | U_NP      | U_MEDIA     | U_NAV      | U_MOUSE | U_SYM | U_NUM      | U_FUN       | U_NP      | U_NP     |
 
@@ -116,7 +116,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 | CAPS  | LEFT  | DOWN  | UP    | RGHT  |
 | INS   | HOME  | PGDN  | PGUP  | END   |
-| ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| ENT   | SPC   | DEL   | U_NP  | U_NP  |
 
 
 *** Mouse
@@ -132,7 +132,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: button
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LGUI  | LALT  | LCTL  | LSFT  |       |       | LSFT  | LCTL  | LALT  | LGUI  |
+| LCTL  | LALT  | LGUI  | LSFT  |       |       | LSFT  | LGUI  | LALT  | LCTL  |
 | U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 
 #+NAME: button-thumbs
@@ -172,7 +172,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | F12  | F7   | F8   | F9   | PSCR |
 | F11  | F4   | F5   | F6   | SLCK |
 | F10  | F1   | F2   | F3   | PAUS |
-| U_NP | U_NP | APP  | SPC  | TAB  |
+| U_NP | U_NP | APP  | BSPC | TAB  |
 
 
 *** Alternative Layouts
